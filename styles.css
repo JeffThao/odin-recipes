@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, "Times New Roman", sans-serif;
+    background-color: aliceblue;
+    padding: 10px
+}
+
+a {
+    color: black;
+}
+
+.home {
+    font-weight: 600;
+}
+
+.ingredients {
+    color: grey;
+}
+
+ul li {
+    list-style-type: none;
+}
+
