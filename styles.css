@@ -1,7 +1,17 @@
 body {
     font-family: Verdana, "Times New Roman", sans-serif;
-    background-color: aliceblue;
-    padding: 10px
+    background-color: antiquewhite;
+}
+
+.body {
+    margin: 8px;
+}
+
+.navbar {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    background-color: rgb(196, 179, 158);
 }
 
 .recipe-list li {
@@ -16,7 +26,7 @@ a {
     font-weight: 600;
 }
 
-.ingredients {
+.list {
     color: grey;
 }
 
@@ -24,3 +34,32 @@ ul li {
     list-style-type: none;
 }
 
+.ingredients {
+    display: grid;
+    grid-template-areas:
+    "protein sauce"
+    "assemble assemble";
+    border-style: dotted;
+    border-radius: 2px;
+    border-color:brown;
+    padding: 5px;
+}
+
+#protein {
+    grid-area: protein;
+    margin: 2px;
+}
+
+#sauce {
+    grid-area: sauce;
+    margin: 2px;
+}
+
+#assemble {
+    grid-area: assemble;
+    margin: 2px;
+}
+
+p {
+    padding-left: 25px;
+}
