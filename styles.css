@@ -42,7 +42,7 @@ ul li {
     border-style: dotted;
     border-radius: 2px;
     border-color:brown;
-    padding: 5px;
+    gap: 5px;
 }
 
 #protein {
